@@ -1,0 +1,105 @@
+header{
+    font-size: larger;
+    background-color: rgba(250, 244, 227, 0.397);
+    font-family: Poppins;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+nav a{
+    color: rgb(212, 52, 52);
+    text-decoration: none;
+    gap: 25px;
+    padding: 20px;
+}
+.banner{
+    margin: 0px;
+    padding: 10px 20px;
+}
+.logo img{
+    width:100px;
+    padding: 5px 30px ;
+}
+.home{
+    background-image: url("home\ bg.png");
+    height: 100vh; 
+    background-size: cover; 
+    background-position: center 90%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    
+}
+
+.deschome{
+    width:40%;
+    font-size:20px;
+    margin-left:20px;
+    & h1{
+        color: rgb(238, 228, 208);
+        font-family: Castoro Titling;
+        margin: 0px;
+        padding: 150px 0px 0px 0px;
+        font-size: 350%;
+        white-space: nowrap;
+    }  
+    & h2{
+        color: rgb(230, 215, 167);
+        font-family: Poppins;
+        margin: 0px;
+        font-size: 100%;
+    }
+}
+
+nav a:hover{
+    color: rgb(74, 105, 48);
+    background-color: rgba(218, 209, 177, 0.74);
+    border-radius: 30px 30px 30px 0px;
+    padding:15px 20px;
+    transition: 0.5s;
+}
+nav{
+    padding: 10px 0px;
+}
+.about{
+    height: 650px;
+    background-image: url(wood\ bg.png);
+    background-attachment: fixed;
+}
+.contabout{
+    background-color:aquamarine; 
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    height: 100%;
+    padding: 20px 20px;
+}
+.about img{
+    width: 200px;
+}
+.abt{
+    color: brown;
+    font-family: Josefin Sans;
+    margin: 0px 0px 0px 20px;
+}
+.howto{
+    height: 650px;
+    background-image: url(wood\ bg.png);
+    background-attachment: fixed;
+}
+.conthowto{
+    background-color:aquamarine; 
+    width: 50%;
+    margin-left: 25%;
+    height: 100%;
+    padding: 20px 20px
+}
+.howto img{
+    width: 200px;
+    float: right;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+}
