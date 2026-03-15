@@ -1,6 +1,10 @@
+html{
+    scroll-behavior: smooth;
+}
 header{
+    display: none;
     font-size: larger;
-    background-color: rgba(250, 244, 227, 0.397);
+    background-color: rgb(250, 244, 227);
     font-family: Poppins;
     display: flex;
     justify-content: space-between;
@@ -12,7 +16,17 @@ nav a{
     color: rgb(212, 52, 52);
     text-decoration: none;
     gap: 25px;
-    padding: 20px;
+    padding: 15px;
+}
+nav a:hover{
+    color: rgb(74, 105, 48);
+    background-color: rgba(218, 209, 177, 0.74);
+    border-radius: 30px 30px 30px 0px;
+    padding:15px 20px;
+    transition: 0.5s;
+}
+nav{
+    padding: 10px 0px;
 }
 .banner{
     margin: 0px;
@@ -29,9 +43,16 @@ nav a{
     background-position: center 90%;
     background-repeat: no-repeat;
     margin: 0px;
-    
 }
-
+.download-kti{
+display: inline-block;
+padding: 15px 20px;
+margin-top: 25px;
+background-color: rgb(250, 244, 227);
+color: rgb(193, 173, 133);
+border-radius: 8px;
+font-size: bold;
+}
 .deschome{
     width:40%;
     font-size:20px;
@@ -51,54 +72,106 @@ nav a{
         font-size: 100%;
     }
 }
-
-nav a:hover{
-    color: rgb(74, 105, 48);
-    background-color: rgba(218, 209, 177, 0.74);
-    border-radius: 30px 30px 30px 0px;
-    padding:15px 20px;
-    transition: 0.5s;
-}
-nav{
-    padding: 10px 0px;
-}
 .about{
-    height: 650px;
+    height: 100vh;
     background-image: url(wood\ bg.png);
     background-attachment: fixed;
 }
 .contabout{
-    background-color:aquamarine; 
+    background-color:rgb(226, 216, 177); 
     width: 50%;
     margin-left: 25%;
     display: flex;
+    flex-direction: row-reverse;
     height: 100%;
     padding: 20px 20px;
 }
 .about img{
-    width: 200px;
+    width: 195px;
+    margin: 120px 0px 0px 20px;
 }
 .abt{
     color: brown;
     font-family: Josefin Sans;
     margin: 0px 0px 0px 20px;
+    text-align: justify;
+    font-size: 18px;
 }
-.howto{
-    height: 650px;
+.abt h3{
+    text-align: right;
+    color: brown;
+    font-family: Josefin Sans;
+    margin: 120px 0px 0px 20px;
+    font-size: 50px;
+}
+.proc{
+    height: 100vh;
     background-image: url(wood\ bg.png);
     background-attachment: fixed;
 }
 .conthowto{
-    background-color:aquamarine; 
+    background-color:rgb(226, 216, 177); 
     width: 50%;
+    gap: 20px;
+    display: flex;
     margin-left: 25%;
     height: 100%;
-    padding: 20px 20px
+    padding: 20px 20px;
 }
-.howto img{
-    width: 200px;
-    float: right;
-    padding: 0px;
+.proc img{
+    width: 195px;
+    margin-top: 120px;
+}
+.list{
+    columns: 2;
+}
+.how{
+    color: brown;
+    font-family: Josefin Sans;
+    margin-right: 20px;
+    text-align: justify;
+    padding-left: -10px;
+}
+.how h3{
+    font-size: 50px;
+    margin-top: 120px;
+}
+section.profile{
+    height: 100vh;
+    background-image: url(wood\ bg.png);
+    background-attachment: fixed;
+    height: 800px;
+    padding-top: 50px;
+}
+.contprofile{
+    background-color: rgb(226, 216, 177);
+    padding: 20px;
+    width:300px;
+    margin: 150px auto;
+    text-align: center;
+}
+img{
+    width:150px;
+}
+.name{
+    color: brown;
+    font-family: Josefin Sans;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height:40px;
+    padding-top:5px;
+}
+.medsos a{
+    color: brown;
+    font-family: Josefin Sans;
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+
 }
 body{
     margin: 0px;
