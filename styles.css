@@ -85,6 +85,7 @@ font-size: bold;
     flex-direction: row-reverse;
     height: 100%;
     padding: 20px 20px;
+    box-shadow: 0px 30px 50px rgb(226, 216, 177);
 }
 .about img{
     width: 195px;
@@ -104,7 +105,7 @@ font-size: bold;
     margin: 120px 0px 0px 20px;
     font-size: 50px;
 }
-.proc{
+.howto{
     height: 100vh;
     background-image: url(wood\ bg.png);
     background-attachment: fixed;
@@ -117,12 +118,13 @@ font-size: bold;
     margin-left: 25%;
     height: 100%;
     padding: 20px 20px;
+    box-shadow: 0px 0px 50px rgb(226, 216, 177);
 }
-.proc img{
+.howto img{
     width: 195px;
     margin-top: 120px;
 }
-.list{
+.listhow{
     columns: 2;
 }
 .how{
@@ -136,7 +138,7 @@ font-size: bold;
     font-size: 50px;
     margin-top: 120px;
 }
-section.profile{
+.profile{
     height: 100vh;
     background-image: url(wood\ bg.png);
     background-attachment: fixed;
@@ -149,6 +151,7 @@ section.profile{
     width:300px;
     margin: 150px auto;
     text-align: center;
+    box-shadow: 0px 0px 50px rgb(226, 216, 177);
 }
 img{
     width:150px;
