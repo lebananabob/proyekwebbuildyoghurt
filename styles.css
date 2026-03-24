@@ -4,23 +4,26 @@ html{
 header{
     display: none;
     font-size: larger;
-    background-color: rgb(250, 244, 227);
-    font-family: Poppins;
+    background-color: rgba(250, 244, 227, 0.795);
+    font-family: mansalva;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 nav a{
-    color: rgb(212, 52, 52);
+    color: rgb(165, 42, 42);
     text-decoration: none;
     gap: 25px;
-    padding: 15px;
+    padding: 15px 15px;
+    margin-right: 15px;
+    font-size: 20px;
 }
 nav a:hover{
     color: rgb(74, 105, 48);
-    background-color: rgba(218, 209, 177, 0.74);
+    background-color: rgba(175, 166, 135, 0.74);
     border-radius: 30px 30px 30px 0px;
     padding:15px 20px;
     transition: 0.5s;
@@ -32,11 +35,18 @@ nav{
     margin: 0px;
     padding: 10px 20px;
 }
-.logo img{
-    width:100px;
-    padding: 5px 30px ;
+.logo{
+    font-family:mountains of christmas;
+    font-size:30px;
+    color: rgb(68, 63, 45);
+    display:flex;
+    align-items:center;
 }
-.home{
+.logo img{
+    width:70px;
+    padding: 10px 10px ;
+}
+section.home{
     background-image: url("home\ bg.png");
     height: 100vh; 
     background-size: cover; 
@@ -48,95 +58,270 @@ nav{
 display: inline-block;
 padding: 15px 20px;
 margin-top: 25px;
-background-color: rgb(250, 244, 227);
-color: rgb(193, 173, 133);
+background-color: rgb(94, 81, 57);
+color: rgb(250, 244, 227);
 border-radius: 8px;
-font-size: bold;
+font-family: Atkinson Hyperlegible Mono;
+}
+.download-kti:hover{
+background-color: rgb(250, 244, 227);
+color: rgb(94, 81, 57);
+border-radius: 8px;
+font-family: Atkinson Hyperlegible Mono;
+box-shadow: 0px 0px 50px rgb(226, 216, 177);
+transition: 0.5s;
 }
 .deschome{
     width:40%;
     font-size:20px;
-    margin-left:20px;
+    margin-left:20px; 
     & h1{
-        color: rgb(238, 228, 208);
-        font-family: Castoro Titling;
+        color: rgb(165, 42, 42);
+        font-family: mountains of christmas;
         margin: 0px;
-        padding: 150px 0px 0px 0px;
-        font-size: 350%;
+        padding: 100px 0px 0px 0px;
+        font-size: 100px;
         white-space: nowrap;
     }  
     & h2{
         color: rgb(230, 215, 167);
-        font-family: Poppins;
+        font-family: mansalva;
         margin: 0px;
-        font-size: 100%;
+        font-size: 25px;
     }
 }
-.about{
+section.about{
     height: 100vh;
     background-image: url(wood\ bg.png);
     background-attachment: fixed;
+    padding-top: 130px;
+}
+.cabemerahclick img{
+        position: absolute;
+        margin: 370px 200px 0px 1125px;
+        rotate: 7deg;
+        width: 150px;
+        display: flex;
+}
+.cabemerahclick img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+.cabeijoclick img{
+        position: absolute;
+        margin: 370px 200px 0px 1125px;
+        rotate: 7deg;
+        width: 150px;
+        display: flex;
+}
+.cabeijoclick img:hover{
+    opacity: 0;
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 .contabout{
-    background-color:rgb(226, 216, 177); 
-    width: 50%;
-    margin-left: 25%;
+    background-color:rgba(199, 193, 172, 0.911); 
+    width: 60%;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 150px;
+    padding: 40px 40px 40px 40px;
+    border-radius: 70px 70px 0px 70px;
     display: flex;
-    flex-direction: row-reverse;
-    height: 100%;
-    padding: 20px 20px;
-    box-shadow: 0px 30px 50px rgb(226, 216, 177);
-}
-.about img{
-    width: 195px;
-    margin: 120px 0px 0px 20px;
+    box-shadow: 0px 0px 50px ;
 }
 .abt{
-    color: brown;
-    font-family: Josefin Sans;
-    margin: 0px 0px 0px 20px;
+    color: rgb(68, 63, 45);
+    font-family: Atkinson Hyperlegible Mono;
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
 }
 .abt h3{
-    text-align: right;
-    color: brown;
-    font-family: Josefin Sans;
-    margin: 120px 0px 0px 20px;
+    text-align: center;
+    color: rgb(165, 42, 42);
+    font-family: mountains of christmas;
+    margin: 20px 0px 0px 20px;
     font-size: 50px;
 }
-.howto{
-    height: 100vh;
+section.howto{
+    min-height: 100vh;
     background-image: url(wood\ bg.png);
     background-attachment: fixed;
+    height: auto;
+    padding: 120px 0px 40px 40px;
 }
-.conthowto{
-    background-color:rgb(226, 216, 177); 
-    width: 50%;
-    gap: 20px;
-    display: flex;
-    margin-left: 25%;
+.imgfiller1 img{
+        position: absolute;
+        margin: 50px 20px 50px 1190px;
+        width: 200px;
+        rotate: 7deg;
+        display: flex;
+}
+.imgfiller1 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0px 10px 50px
+}
+.imgfiller2 img{
+        position: absolute;
+        margin: 350px 10px 50px 1125px;
+        width: 300px;
+        rotate: -7deg;
+        display: flex;
+}
+.imgfiller2 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0px 10px 50px
+}
+.conthowto1{
+    background-color:rgba(199, 193, 172, 0.911); 
+    width: 70%;
     height: 100%;
-    padding: 20px 20px;
+    gap: 20px;
+    padding: 40px 0px 40px 40px;
+    border-radius: 70px 70px 0px 70px;
+    overflow: auto;
+    position: relative;
     box-shadow: 0px 0px 50px rgb(226, 216, 177);
 }
-.howto img{
-    width: 195px;
-    margin-top: 120px;
+.judul1{
+    font-family: mountains of christmas;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(165, 42, 42);
 }
-.listhow{
-    columns: 2;
+.listhow1{
+    columns: 5;
+    color: rgb(68, 63, 45);
+    font-family: Atkinson Hyperlegible Mono;
 }
-.how{
-    color: brown;
-    font-family: Josefin Sans;
-    margin-right: 20px;
+.heading1{
+    font-size: 25px;
+    color: rgb(74, 105, 48);
+    font-family: mansalva;
+}
+.pros1{
+    color: rgb(68, 63, 45);
+    font-family: Atkinson Hyperlegible Mono;
     text-align: justify;
-    padding-left: -10px;
+    font-size: 16px;
+    margin: 10px 35px 10px 10px;
 }
-.how h3{
-    font-size: 50px;
-    margin-top: 120px;
+.imgfiller3 img{
+        position: absolute;
+        margin: 50px 10px 50px 20px;
+        width: 200px;
+        rotate: 7deg;
+        display: flex;
+}
+.imgfiller3 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0px 10px 50px
+}
+.imgfiller4 img{
+        position: absolute;
+        margin: 290px 10px 50px 50px;
+        width: 250px;
+        rotate: -7deg;
+        display: flex;
+}
+.imgfiller4 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0px 10px 50px
+}
+.conthowto2{
+    background-color:rgba(199, 193, 172, 0.911); 
+    width: 70%;
+    height: 100%;
+    gap: 20px;
+    margin: 40px 50px 40px 10px;
+    padding: 40px 0px 40px 40px;
+    border-radius: 70px 70px 70px 0px;
+    position: relative;
+    float: right;
+    box-shadow: 0px 0px 50px rgb(226, 216, 177);
+}
+.judul2{
+    font-family: mountains of christmas;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(165, 42, 42);;
+}
+.listhow2{
+    columns: 5;
+    color: rgb(68, 63, 45);
+    font-family: Atkinson Hyperlegible Mono;
+}
+.heading2{
+    font-size: 25px;
+    color: rgb(74, 105, 48);
+    font-family: mansalva;
+}
+.pros2{
+    color: rgb(68, 63, 45);
+    font-family: Atkinson Hyperlegible Mono;
+    text-align: justify;
+    font-size: 16px;
+}
+.imgfiller5 img{
+        position: absolute;
+        margin: 650px 10px 50px 1150px;
+        width: 250px;
+        rotate: -7deg;
+        display: flex;
+}
+.imgfiller5 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0px 10px 50px
+}
+.imgfiller6 img{
+        position: absolute;
+        margin: 900px 10px 50px 1150px;
+        width: 250px;
+        rotate: 7deg;
+        display: flex;
+}
+.imgfiller6 img:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 0px 10px 50px
+}
+.conthowto3{
+    background-color:rgba(199, 193, 172, 0.911); 
+    width: 70%;
+    height: 100%;
+    gap: 20px;
+    padding: 40px 40px 40px 40px;
+    border-radius: 70px 70px 0px 70px;
+    overflow: auto;
+    position: relative;
+    box-shadow: 0px 0px 50px rgb(226, 216, 177);
+}
+.judul3{
+    font-family: mountains of christmas;
+    font-size: 35px;
+    text-align: center;
+    color: rgb(165, 42, 42);
+}
+.listhow3{
+    columns: 5;
+    color: rgb(68, 63, 45);
+    font-family: Atkinson Hyperlegible Mono;
+}
+.heading3{
+    font-size: 25px;
+    color: rgb(74, 105, 48);
+    font-family: mansalva;
+}
+.pros3{
+    color: rgb(68, 63, 45);
+    font-family: Atkinson Hyperlegible Mono;
+    text-align: justify;
+    font-size: 16px;
 }
 .profile{
     height: 100vh;
@@ -146,7 +331,7 @@ font-size: bold;
     padding-top: 50px;
 }
 .contprofile{
-    background-color: rgb(226, 216, 177);
+    background-color: rgba(199, 193, 172, 0.911);
     padding: 20px;
     width:300px;
     margin: 150px auto;
@@ -158,7 +343,8 @@ img{
 }
 .name{
     color: brown;
-    font-family: Josefin Sans;
+    font-family: mountains of christmas;
+    font-size: 30px;
 }
 .medsos{
     left: 0;
@@ -170,11 +356,17 @@ img{
 }
 .medsos a{
     color: brown;
-    font-family: Josefin Sans;
     text-decoration: none;
     padding: 10px 10px;
     font-size: 24px;
 
+}
+.medsos a:hover{
+    color: rgb(74, 105, 48);
+    text-decoration: none;
+    padding: 10px 15px;
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 body{
     margin: 0px;
