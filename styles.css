@@ -98,7 +98,7 @@ section.about{
 }
 .cabemerahclick img{
         position: absolute;
-        margin: 370px 200px 0px 1125px;
+        margin: 400px 200px 0px 1250px;
         rotate: 7deg;
         width: 150px;
         display: flex;
@@ -109,7 +109,7 @@ section.about{
 }
 .cabeijoclick img{
         position: absolute;
-        margin: 370px 200px 0px 1125px;
+        margin: 400px 200px 0px 1250px;
         rotate: 7deg;
         width: 150px;
         display: flex;
@@ -124,7 +124,7 @@ section.about{
     width: 60%;
     gap: 20px;
     margin-top: 30px;
-    margin-left: 150px;
+    margin-left: 250px;
     padding: 40px 40px 40px 40px;
     border-radius: 70px 70px 0px 70px;
     display: flex;
@@ -152,8 +152,8 @@ section.howto{
 }
 .imgfiller1 img{
         position: absolute;
-        margin: 50px 20px 50px 1190px;
-        width: 200px;
+        margin: 100px 20px 50px 1150px;
+        width: 250px;
         rotate: 7deg;
         display: flex;
 }
@@ -164,7 +164,7 @@ section.howto{
 }
 .imgfiller2 img{
         position: absolute;
-        margin: 350px 10px 50px 1125px;
+        margin: 450px 10px 50px 1125px;
         width: 300px;
         rotate: -7deg;
         display: flex;
@@ -210,7 +210,7 @@ section.howto{
 }
 .imgfiller3 img{
         position: absolute;
-        margin: 50px 10px 50px 20px;
+        margin: 100px 10px 50px 20px;
         width: 200px;
         rotate: 7deg;
         display: flex;
@@ -222,7 +222,7 @@ section.howto{
 }
 .imgfiller4 img{
         position: absolute;
-        margin: 290px 10px 50px 50px;
+        margin: 400px 10px 50px 50px;
         width: 250px;
         rotate: -7deg;
         display: flex;
@@ -268,8 +268,8 @@ section.howto{
 }
 .imgfiller5 img{
         position: absolute;
-        margin: 650px 10px 50px 1150px;
-        width: 250px;
+        margin: 850px 10px 50px 1150px;
+        width: 300px;
         rotate: -7deg;
         display: flex;
 }
@@ -280,7 +280,7 @@ section.howto{
 }
 .imgfiller6 img{
         position: absolute;
-        margin: 900px 10px 50px 1150px;
+        margin: 1150px 10px 50px 1150px;
         width: 250px;
         rotate: 7deg;
         display: flex;
@@ -332,19 +332,24 @@ section.howto{
 }
 .contprofile{
     background-color: rgba(199, 193, 172, 0.911);
-    padding: 20px;
-    width:300px;
+    padding: 20px 20px 20px 20px;
     margin: 150px auto;
     text-align: center;
     box-shadow: 0px 0px 50px rgb(226, 216, 177);
+    display: flex;
+    width: 50%;
+    align-items: center;
 }
 img{
-    width:150px;
+    width:250px;
 }
 .name{
-    color: brown;
+    color: rgb(165, 42, 42);
     font-family: mountains of christmas;
     font-size: 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .medsos{
     left: 0;
@@ -353,6 +358,7 @@ img{
     text-align: center;
     height:40px;
     padding-top:5px;
+    display: flex;
 }
 .medsos a{
     color: brown;
