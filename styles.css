@@ -222,7 +222,7 @@ section.howto{
 }
 .imgfiller4 img{
         position: absolute;
-        margin: 400px 10px 50px 30px;
+        margin: 400px 10px 50px 50px;
         width: 250px;
         rotate: -7deg;
         display: flex;
@@ -331,62 +331,41 @@ section.howto{
     padding-top: 50px;
 }
 .contprofile{
-    background-image: url("id card.png");
-    background-size: 50% 100%;
+    background-color: rgba(199, 193, 172, 0.911);
+    padding: 20px 20px 20px 20px;
     margin: 150px auto;
     text-align: center;
     box-shadow: 0px 0px 50px rgb(226, 216, 177);
     display: flex;
-    width: 35%;
-    height: auto;
+    width: 50%;
+    align-items: center;
 }
-.contprofile p{
-    width: 250px;
+img{
+    width:250px;
 }
-.imghover img{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    margin: 25px 20px 0px 300px;
-    border: 4px dashed rgb(68, 63, 45);
-}
-.logohover img{
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    margin: 25px 20px 0px 300px;
-    border: 4px dashed rgb(68, 63, 45);
-}
-.logohover:hover{
-        transition: 0.5s ease;
-        opacity: 0;
-    }
 .name{
     color: rgb(165, 42, 42);
-    font-family: "mountains of christmas";
-    font-size: 25px;
+    font-family: mountains of christmas;
+    font-size: 30px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
-    text-align: left;
-    margin-left: 20px;
-    padding-top: 20px;
-    line-height: 1.5px;
 }
 .medsos{
-    position: relative;
-    scale: 1.25;
-    left: 150px;
+    left: 0;
+    bottom: 0;
     width: 100%;
     text-align: center;
     height:40px;
-    margin:50px 20px 30px 20px;
+    padding-top:5px;
     display: flex;
 }
 .medsos a{
-    color: rgb(165, 42, 42);
+    color: brown;
     text-decoration: none;
     padding: 10px 10px;
     font-size: 24px;
+
 }
 .medsos a:hover{
     color: rgb(74, 105, 48);
