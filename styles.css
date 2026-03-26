@@ -12,6 +12,7 @@ header{
     position: fixed;
     width: 100%;
     z-index: 1;
+    box-shadow: 0px 0px 50px rgb(226, 216, 177);
 }
 nav a{
     color: rgb(165, 42, 42);
@@ -94,6 +95,7 @@ section.about{
     height: 100vh;
     background-image: url(wood\ bg.png);
     background-attachment: fixed;
+    background-repeat: no-repeat;
     padding-top: 130px;
 }
 .cabemerahclick img{
@@ -124,7 +126,7 @@ section.about{
     width: 60%;
     gap: 20px;
     margin-top: 30px;
-    margin-left: 250px;
+    margin:auto;
     padding: 40px 40px 40px 40px;
     border-radius: 70px 70px 0px 70px;
     display: flex;
@@ -147,6 +149,7 @@ section.howto{
     min-height: 100vh;
     background-image: url(wood\ bg.png);
     background-attachment: fixed;
+    background-repeat: no-repeat;
     height: auto;
     padding: 120px 0px 40px 40px;
 }
@@ -211,7 +214,7 @@ section.howto{
 .imgfiller3 img{
         position: absolute;
         margin: 100px 10px 50px 20px;
-        width: 200px;
+        width: 250px;
         rotate: 7deg;
         display: flex;
 }
@@ -222,7 +225,7 @@ section.howto{
 }
 .imgfiller4 img{
         position: absolute;
-        margin: 400px 10px 50px 50px;
+        margin: 400px 10px 50px 30px;
         width: 250px;
         rotate: -7deg;
         display: flex;
@@ -327,45 +330,67 @@ section.howto{
     height: 100vh;
     background-image: url(wood\ bg.png);
     background-attachment: fixed;
+    background-repeat: no-repeat;
     height: 800px;
     padding-top: 50px;
 }
 .contprofile{
-    background-color: rgba(199, 193, 172, 0.911);
-    padding: 20px 20px 20px 20px;
+    background-image: url("id card.png");
+    background-size: 50% 100%;
     margin: 150px auto;
     text-align: center;
     box-shadow: 0px 0px 50px rgb(226, 216, 177);
     display: flex;
-    width: 50%;
-    align-items: center;
+    width: 35%;
+    height: auto;
 }
-img{
-    width:250px;
+.contprofile p{
+    width: 250px;
 }
+.imghover img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: 25px 20px 0px 300px;
+    border: 4px dashed rgb(68, 63, 45);
+}
+.logohover img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: 25px 20px 0px 300px;
+    border: 4px dashed rgb(68, 63, 45);
+}
+.logohover:hover{
+        transition: 0.5s ease;
+        opacity: 0;
+    }
 .name{
     color: rgb(165, 42, 42);
-    font-family: mountains of christmas;
-    font-size: 30px;
-    margin: 20px;
+    font-family: "mountains of christmas";
+    font-size: 25px;
     display: flex;
     flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 20px;
+    line-height: 1.5px;
 }
 .medsos{
-    left: 0;
-    bottom: 0;
+    position: relative;
+    scale: 1.25;
+    left: 150px;
     width: 100%;
     text-align: center;
     height:40px;
-    padding-top:5px;
+    margin:50px 20px 30px 20px;
     display: flex;
 }
 .medsos a{
-    color: brown;
+    color: rgb(165, 42, 42);
     text-decoration: none;
     padding: 10px 10px;
     font-size: 24px;
-
 }
 .medsos a:hover{
     color: rgb(74, 105, 48);
